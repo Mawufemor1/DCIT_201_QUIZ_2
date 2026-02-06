@@ -15,23 +15,14 @@ public class GradeReport {
     }
 
     public static void displayPerformanceMessage(char grade) {
-        if (grade == 'A') {
-            System.out.print("Excellent");
-        }
-        else if (grade == 'B') {
-            System.out.print("Very Good");
-        }
-        else if (grade == 'C') {
-            System.out.print("Good");
-        }
-        else if (grade == 'D') {
-            System.out.print("Pass");
-        }
-        else if (grade == 'E') {
-            System.out.print("Credit");
-        }
-        else if (grade == 'F') {
-            System.out.print("Fail");
+        switch (grade){
+            case'A': System.out.println("Excellent"); break;
+            case'B': System.out.println("Very Good"); break;
+            case'C': System.out.println("Good"); break;
+            case'D': System.out.println("Pass"); break;
+            case'E': System.out.println("Credit"); break;
+            case'F': System.out.println("Fail"); break;
+            default: System.out.println("Incorrect grade"); break;
         }
     }
 
