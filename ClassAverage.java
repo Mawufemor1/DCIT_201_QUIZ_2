@@ -38,7 +38,7 @@ public class ClassAverage {
         int size = input.nextInt();
         double[] numbers = new double[size];
         for (int i = 0; i < numbers.length;i++){
-            System.out.print("Enter value for index " + i + ": ");
+            System.out.print("Enter value for index : ");
             numbers[i] = input.nextDouble();
 
         }
