@@ -28,7 +28,7 @@ public class ClassAverage {
         double num2 = input.nextDouble();
         System.out.println("The class average is: "+calculateClassAverage(num1,num2));
 
-        System.out.println("Enter three number");;
+        System.out.println("Enter three number");
         double n1 = input.nextDouble();
         double n2 = input.nextDouble();
         double n3 = input.nextDouble();
@@ -38,7 +38,7 @@ public class ClassAverage {
         int size = input.nextInt();
         double[] numbers = new double[size];
         for (int i = 0; i < numbers.length;i++){
-            System.out.print("Enter value for index : ");
+            System.out.print("Enter value for index");
             numbers[i] = input.nextDouble();
 
         }

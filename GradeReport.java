@@ -1,4 +1,4 @@
-// STUDENT ID: 22393383
+// STUDENT ID ->  22393383
 import java.util.Scanner;
 public class GradeReport {
     public static boolean validateScore(double score) {
@@ -16,13 +16,13 @@ public class GradeReport {
 
     public static void displayPerformanceMessage(char grade) {
         switch (grade){
-            case'A': System.out.println("Excellent"); break;
-            case'B': System.out.println("Very Good"); break;
-            case'C': System.out.println("Good"); break;
-            case'D': System.out.println("Pass"); break;
-            case'E': System.out.println("Credit"); break;
-            case'F': System.out.println("Fail"); break;
-            default: System.out.println("Incorrect grade"); break;
+            case'A' ->  System.out.println("Excellent");
+            case'B' ->  System.out.println("Very Good");
+            case'C' ->  System.out.println("Good");
+            case'D' ->  System.out.println("Pass");
+            case'E' ->  System.out.println("Credit");
+            case'F' ->  System.out.println("Fail");
+            default ->  System.out.println("Incorrect grade");
         }
     }
 
